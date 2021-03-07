@@ -1,8 +1,10 @@
-def echo(Hello):
-    for i in range (x, y):
-        print ("Hello")
+def echo(word, x):
 
-        return "Hello"
+        newWord = word
 
-print (echo(Hello, 0))
+        for i in range(0, x - 1):
+            newWord = newWord = word
 
+        return newWord
+
+print (echo("yo", 10))
